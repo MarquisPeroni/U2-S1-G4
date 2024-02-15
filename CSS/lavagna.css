@@ -1,0 +1,58 @@
+body {
+    font: 2rem "Indie Flower";
+    overflow-x: hidden;
+    color: rgb(78, 6, 6);
+}
+
+section {
+    background-color: rgb(29, 85, 57);
+    display: flex;
+    align-items:flex-start;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+div {
+    background-color: rgb(199, 206, 108);
+    padding: 1em;
+    margin:0.7em;
+    box-shadow: 5px 5px 7px rgba(30, 30, 30, 0.5.);
+    transform: rotate(-5deg);
+    transition: transform 100ms ease-in-out, box-shadow 150ms ease-out;
+    animation: slap-in 1s;
+    box-shadow: 0px 5px 5px rgba(39, 1, 1, 0.5);
+} 
+
+div:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 15px 20px rgba(39, 1, 1, 0.5);
+    z-index: 10;
+    cursor: pointer;
+}
+
+.blue {
+    background-color: rgb(34, 156, 156);
+    transform: rotate(10deg);
+    transition: transform 100ms ease-in-out, box-shadow 150ms ease-out;
+    animation: slap-in 1s;
+}
+
+.red {
+    background-color: rgb(133, 95, 95);
+    transform: rotate(5deg);
+    transition: transform 100ms ease-in-out, box-shadow 150ms ease-out;
+    animation: slap-in 1s;
+}
+
+
+
+
+
+
